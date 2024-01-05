@@ -1,0 +1,162 @@
+/* ======google font====== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* =====common css======= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+}
+.main-btn{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 18px 35px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: all linear .4s;
+}
+.main-btn:hover{
+    background: #FFF8F3;
+    color: #FD6E0A;
+}
+
+
+
+
+/* =======header area start======== */
+/* =====nav area===== */
+#header{
+    background: #FFF8F3;
+    padding-top: 51px;
+    position: relative;
+    z-index: 1;
+}
+#header::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: url(../images/developer.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translateY(-45%);
+    z-index: -1;
+}
+#header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#header .navbar .logo-area a{
+    font-size: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#header .navbar .logo-area a span{
+    color: #FD6E0A;
+}
+#header .navbar .menu-area ul{
+    display: flex;
+    align-items: center;
+}
+#header .navbar .menu-area ul li{
+    margin-left: 50px;
+}
+#header .navbar .menu-area ul li a{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all linear .4s;
+}
+#header .navbar .menu-area ul li a:hover{
+    color: #FD6E0A;
+}
+/* =======banner area==== */
+#header .banner{
+    padding: 185px 0;
+    background: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+#header .banner-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+#header .banner-content h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+#header .banner-content h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+#header .banner-content p{
+    padding-right: 553px;
+}
+#header .banner-content .banner-btn{
+    padding-top: 50px;
+}
+#header .banner-content .banner-btn i{
+    margin-right: 10px;
+}
+#header .banner-content .banner-btn button{
+    margin-right: 30px;
+}
+#header .banner-content .banner-btn button:last-child{
+    background: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+#header .banner-content .banner-btn button:last-child:hover{
+    background: #FD6E0A;
+    color: #fff;
+}
+#header .banner-content .image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(45%,27%);
+}
+#header .banner-content .image img{
+    width: 584px;
+    height: 676px;
+}
+/* =======header area end======== */
+/* =======header area start======== */
+/* =======header area start======== */
+/* =======header area start======== */
+/* =======header area start======== */
+/* =======header area start======== */
+/* =======header area start======== */
+/* =======header area start======== */
