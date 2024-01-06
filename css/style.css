@@ -39,9 +39,15 @@ p{
     background: #FFF8F3;
     color: #FD6E0A;
 }
-
-
-
+.section-title{
+    text-align: center;
+}
+.section-title h3{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
 
 /* =======header area start======== */
 /* =====nav area===== */
@@ -153,8 +159,52 @@ p{
     height: 676px;
 }
 /* =======header area end======== */
-/* =======header area start======== */
-/* =======header area start======== */
+/* =======main area start======== */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ===about section======= */
+#about-us{
+    padding: 131px 157px;
+    background: #FFF8F3;
+    margin-top: 130px;
+}
+#about-us .about-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+#about-us .about-area .about-info{
+    text-align: center;
+}
+#about-us .about-area .about-info h5{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#about-us .about-area .about-info h4{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+/* =======skill section======= */
+#skill{
+    margin-top: 130px;
+}
+#skill .section-title{
+    padding: 0 108px;
+    margin-bottom: 50px;
+}
+
+
+
+/* =======main area end======== */
 /* =======header area start======== */
 /* =======header area start======== */
 /* =======header area start======== */
