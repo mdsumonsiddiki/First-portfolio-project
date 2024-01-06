@@ -270,8 +270,52 @@ main{
     padding-top: 50px;
 }
 /* =======main area end======== */
-/* =======header area start======== */
-/* =======header area start======== */
-/* =======header area start======== */
-/* =======header area start======== */
-/* =======header area start======== */
+/* =======footer area start======== */
+#footer{
+    background: #FFF8F3;
+    padding: 130px 0;
+}
+#footer .footer-area{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    gap: 117px;
+}
+#footer .footer-details{
+    width: 48%;
+}
+#footer .section-title{
+    text-align: left;
+}
+#footer .footer-info p{
+    font-size: 16px;
+}
+#footer .footer-form{
+    width: 52%;
+}
+#footer .form-input{
+    width: 100%;
+    position: relative;
+}
+#footer .form-input input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+#footer .form-input label{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    z-index: 1;
+    pointer-events: none;
+    transform: translateY(80%);
+    color: #757575;
+    font-size: 16px;
+}
+/* =======footer area end======== */
