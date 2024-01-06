@@ -35,6 +35,9 @@ p{
     text-transform: capitalize;
     transition: all linear .4s;
 }
+.main-btn i{
+    padding-right: 10px;
+}
 .main-btn:hover{
     background: #FFF8F3;
     color: #FD6E0A;
@@ -133,9 +136,6 @@ p{
 #header .banner-content .banner-btn{
     padding-top: 50px;
 }
-#header .banner-content .banner-btn i{
-    margin-right: 10px;
-}
 #header .banner-content .banner-btn button{
     margin-right: 30px;
 }
@@ -195,15 +195,80 @@ main{
 }
 /* =======skill section======= */
 #skill{
-    margin-top: 130px;
+    padding: 130px 0;
 }
 #skill .section-title{
     padding: 0 108px;
     margin-bottom: 50px;
 }
-
-
-
+#skill .skill-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+#skill .skill-card{
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    transition: all linear .4s;
+}
+#skill .skill-card:hover{
+    box-shadow: 0px 0px 42px -4px rgba(253,110,10,1);
+}
+#skill .skill-card h3{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#skill .skill-card p{
+    font-size: 16px;
+}
+/* =====resume section===== */
+#resume{
+    padding-bottom: 113px;
+}
+#resume .resume-details h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#resume .resume-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 113px;
+    gap: 24px;
+}
+#resume .resume-info{
+    padding: 30px 115px 30px 0;
+    border-bottom: 1px solid #D1D1D1;
+}
+#resume .resume-info h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#resume .resume-info h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#resume .resume-info p{
+    font-size: 16px;
+}
+#resume .resume-btn{
+    text-align: center;
+    padding-top: 50px;
+}
 /* =======main area end======== */
 /* =======header area start======== */
 /* =======header area start======== */
